@@ -382,6 +382,21 @@ function HomeScreen({ onStart, onUrgent, onBrowse }) {
         </div>
       </div>
 
+      {/* Banner Compre & Ganhe */}
+      <div style={{ padding: '20px 24px 0' }}>
+        <div style={{
+          borderRadius: 20,
+          overflow: 'hidden',
+          boxShadow: '0 4px 20px rgba(0,0,0,0.12)',
+        }}>
+          <img
+            src="/banner-compre-ganhe.jpg"
+            alt="Compre acima de R$ 599 e ganhe um porta-sapato exclusivo Ferracini"
+            style={{ width: '100%', display: 'block' }}
+          />
+        </div>
+      </div>
+
       {/* 3 selos de confiança */}
       <div style={{
         padding: '28px 24px 0',
